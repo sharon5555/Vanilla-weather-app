@@ -2,11 +2,15 @@ boody {
   font-family: Arial, sans-serif;
 }
 
+#search-form {
+  padding: 5px;
+}
+
 h1 {
   color: #878787;
   font-size: 34px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 30px;
   margin-bottom: 0;
 }
 
@@ -30,9 +34,16 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.dt {
+  line-height: 28px;
+}
+#description {
+  line-height: 15px;
+}
+
 .weather-app-wrapper {
   max-width: 500px;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .weather-app {
@@ -54,8 +65,8 @@ li:first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  font-size: 14px;
+  top: -5px;
 }
 
 .weather-temperature img {
