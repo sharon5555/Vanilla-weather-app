@@ -7,7 +7,7 @@ boody {
 }
 
 h1 {
-  color: #878787;
+  color: white;
   font-size: 34px;
   font-weight: 100;
   line-height: 30px;
@@ -23,7 +23,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #878787;
+  color: white;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -50,6 +50,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid blueviolet;
   border-radius: 10px;
+  background-color: #000000d0;
 }
 
 .overview {
@@ -57,7 +58,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: #333;
+  color: white;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -67,6 +68,7 @@ li:first-letter {
   position: relative;
   font-size: 14px;
   top: 0;
+  color: white;
 }
 
 .weather-temperature img {
@@ -80,7 +82,7 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #333;
+  color: white;
   cursor: default;
 }
 
